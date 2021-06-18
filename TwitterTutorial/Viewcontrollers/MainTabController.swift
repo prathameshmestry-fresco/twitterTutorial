@@ -32,7 +32,7 @@ class MainTabController: UITabBarController {
         let nav3 = addNavigationController(image: UIImage(named: "like_unselected"), rootViewController: notification)
 
         let conversation = ConversationViewController()
-        let nav4 = addNavigationController(image: UIImage(named: "home_unselected"), rootViewController: conversation)
+        let nav4 = addNavigationController(image: UIImage(named: "ic_mail_outline_white_2x-1"), rootViewController: conversation)
 
         viewControllers = [nav1, nav2, nav3, nav4]
     }
