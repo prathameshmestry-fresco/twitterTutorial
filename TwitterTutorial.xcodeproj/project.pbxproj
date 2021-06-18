@@ -13,6 +13,16 @@
 		B45191CB267C709C005100B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45191C9267C709C005100B4 /* Main.storyboard */; };
 		B45191CD267C709D005100B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45191CC267C709D005100B4 /* Assets.xcassets */; };
 		B45191D0267C709D005100B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45191CE267C709D005100B4 /* LaunchScreen.storyboard */; };
+		B45191E6267C7724005100B4 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45191E4267C7724005100B4 /* MainTabController.swift */; };
+		B45191E7267C7724005100B4 /* MainTabController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45191E5267C7724005100B4 /* MainTabController.xib */; };
+		B45191EB267C7888005100B4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45191E9267C7888005100B4 /* FeedViewController.swift */; };
+		B45191EC267C7888005100B4 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45191EA267C7888005100B4 /* FeedViewController.xib */; };
+		B45191F0267C78A6005100B4 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45191EE267C78A6005100B4 /* ExploreViewController.swift */; };
+		B45191F1267C78A6005100B4 /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45191EF267C78A6005100B4 /* ExploreViewController.xib */; };
+		B45191F5267C78B6005100B4 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45191F3267C78B6005100B4 /* ConversationViewController.swift */; };
+		B45191F6267C78B6005100B4 /* ConversationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45191F4267C78B6005100B4 /* ConversationViewController.xib */; };
+		B45191FA267C79B1005100B4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45191F8267C79B1005100B4 /* NotificationViewController.swift */; };
+		B45191FB267C79B1005100B4 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45191F9267C79B1005100B4 /* NotificationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		B45191CC267C709D005100B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45191CF267C709D005100B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45191D1267C709D005100B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45191E4267C7724005100B4 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		B45191E5267C7724005100B4 /* MainTabController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabController.xib; sourceTree = "<group>"; };
+		B45191E9267C7888005100B4 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		B45191EA267C7888005100B4 /* FeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
+		B45191EE267C78A6005100B4 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		B45191EF267C78A6005100B4 /* ExploreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreViewController.xib; sourceTree = "<group>"; };
+		B45191F3267C78B6005100B4 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		B45191F4267C78B6005100B4 /* ConversationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationViewController.xib; sourceTree = "<group>"; };
+		B45191F8267C79B1005100B4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		B45191F9267C79B1005100B4 /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,12 @@
 		B45191C2267C709C005100B4 /* TwitterTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				B45191DD267C7113005100B4 /* Model */,
+				B45191DC267C7110005100B4 /* Views */,
+				B45191DB267C710C005100B4 /* ViewModel */,
+				B45191DA267C7109005100B4 /* Viewcontrollers */,
+				B45191D9267C7101005100B4 /* API */,
+				B45191D8267C70FA005100B4 /* Utilities */,
 				B45191C3267C709C005100B4 /* AppDelegate.swift */,
 				B45191C5267C709C005100B4 /* SceneDelegate.swift */,
 				B45191C7267C709C005100B4 /* ViewController.swift */,
@@ -65,6 +91,58 @@
 				B45191D1267C709D005100B4 /* Info.plist */,
 			);
 			path = TwitterTutorial;
+			sourceTree = "<group>";
+		};
+		B45191D8267C70FA005100B4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B45191D9267C7101005100B4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B45191DA267C7109005100B4 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				B45191E4267C7724005100B4 /* MainTabController.swift */,
+				B45191E5267C7724005100B4 /* MainTabController.xib */,
+				B45191E9267C7888005100B4 /* FeedViewController.swift */,
+				B45191EA267C7888005100B4 /* FeedViewController.xib */,
+				B45191EE267C78A6005100B4 /* ExploreViewController.swift */,
+				B45191EF267C78A6005100B4 /* ExploreViewController.xib */,
+				B45191F3267C78B6005100B4 /* ConversationViewController.swift */,
+				B45191F4267C78B6005100B4 /* ConversationViewController.xib */,
+				B45191F8267C79B1005100B4 /* NotificationViewController.swift */,
+				B45191F9267C79B1005100B4 /* NotificationViewController.xib */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		B45191DB267C710C005100B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B45191DC267C7110005100B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B45191DD267C7113005100B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +202,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45191F1267C78A6005100B4 /* ExploreViewController.xib in Resources */,
 				B45191D0267C709D005100B4 /* LaunchScreen.storyboard in Resources */,
+				B45191EC267C7888005100B4 /* FeedViewController.xib in Resources */,
 				B45191CD267C709D005100B4 /* Assets.xcassets in Resources */,
+				B45191E7267C7724005100B4 /* MainTabController.xib in Resources */,
+				B45191FB267C79B1005100B4 /* NotificationViewController.xib in Resources */,
+				B45191F6267C78B6005100B4 /* ConversationViewController.xib in Resources */,
 				B45191CB267C709C005100B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B45191F5267C78B6005100B4 /* ConversationViewController.swift in Sources */,
 				B45191C8267C709C005100B4 /* ViewController.swift in Sources */,
+				B45191FA267C79B1005100B4 /* NotificationViewController.swift in Sources */,
 				B45191C4267C709C005100B4 /* AppDelegate.swift in Sources */,
+				B45191F0267C78A6005100B4 /* ExploreViewController.swift in Sources */,
+				B45191EB267C7888005100B4 /* FeedViewController.swift in Sources */,
+				B45191E6267C7724005100B4 /* MainTabController.swift in Sources */,
 				B45191C6267C709C005100B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +372,6 @@
 		B45191D5267C709D005100B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TwitterTutorial/Info.plist;
@@ -302,7 +389,6 @@
 		B45191D6267C709D005100B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TwitterTutorial/Info.plist;
