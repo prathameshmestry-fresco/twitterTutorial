@@ -21,6 +21,7 @@ class MainTabController: UITabBarController {
     }
     
     // MARK: - Helper
+
     func setupView() {
         let feed = FeedViewController()
         let nav1 = addNavigationController(image: UIImage(named: "home_unselected"), rootViewController: feed)

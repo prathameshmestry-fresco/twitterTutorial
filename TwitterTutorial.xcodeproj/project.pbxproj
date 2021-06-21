@@ -23,6 +23,11 @@
 		B45191F6267C78B6005100B4 /* ConversationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45191F4267C78B6005100B4 /* ConversationViewController.xib */; };
 		B45191FA267C79B1005100B4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45191F8267C79B1005100B4 /* NotificationViewController.swift */; };
 		B45191FB267C79B1005100B4 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45191F9267C79B1005100B4 /* NotificationViewController.xib */; };
+		B45191FF267CAC8C005100B4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45191FE267CAC8C005100B4 /* Extensions.swift */; };
+		B4A556512680B48D0076EF62 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A5564F2680B48D0076EF62 /* LoginViewController.swift */; };
+		B4A556522680B48D0076EF62 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A556502680B48D0076EF62 /* LoginViewController.xib */; };
+		B4A556562680B4B10076EF62 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A556542680B4B10076EF62 /* RegistrationViewController.swift */; };
+		B4A556572680B4B10076EF62 /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A556552680B4B10076EF62 /* RegistrationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		B45191F4267C78B6005100B4 /* ConversationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationViewController.xib; sourceTree = "<group>"; };
 		B45191F8267C79B1005100B4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		B45191F9267C79B1005100B4 /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		B45191FE267CAC8C005100B4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B4A5564F2680B48D0076EF62 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B4A556502680B48D0076EF62 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B4A556542680B4B10076EF62 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		B4A556552680B4B10076EF62 /* RegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,7 @@
 		B45191D8267C70FA005100B4 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B45191FE267CAC8C005100B4 /* Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -110,6 +121,7 @@
 		B45191DA267C7109005100B4 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
+				B4A5564E2680B46C0076EF62 /* Authentication */,
 				B45191E4267C7724005100B4 /* MainTabController.swift */,
 				B45191E5267C7724005100B4 /* MainTabController.xib */,
 				B45191E9267C7888005100B4 /* FeedViewController.swift */,
@@ -143,6 +155,17 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B4A5564E2680B46C0076EF62 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B4A5564F2680B48D0076EF62 /* LoginViewController.swift */,
+				B4A556502680B48D0076EF62 /* LoginViewController.xib */,
+				B4A556542680B4B10076EF62 /* RegistrationViewController.swift */,
+				B4A556552680B4B10076EF62 /* RegistrationViewController.xib */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +230,11 @@
 				B45191EC267C7888005100B4 /* FeedViewController.xib in Resources */,
 				B45191CD267C709D005100B4 /* Assets.xcassets in Resources */,
 				B45191E7267C7724005100B4 /* MainTabController.xib in Resources */,
+				B4A556572680B4B10076EF62 /* RegistrationViewController.xib in Resources */,
 				B45191FB267C79B1005100B4 /* NotificationViewController.xib in Resources */,
 				B45191F6267C78B6005100B4 /* ConversationViewController.xib in Resources */,
 				B45191CB267C709C005100B4 /* Main.storyboard in Resources */,
+				B4A556522680B48D0076EF62 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +246,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45191F5267C78B6005100B4 /* ConversationViewController.swift in Sources */,
+				B45191FF267CAC8C005100B4 /* Extensions.swift in Sources */,
 				B45191C8267C709C005100B4 /* ViewController.swift in Sources */,
+				B4A556562680B4B10076EF62 /* RegistrationViewController.swift in Sources */,
 				B45191FA267C79B1005100B4 /* NotificationViewController.swift in Sources */,
 				B45191C4267C709C005100B4 /* AppDelegate.swift in Sources */,
 				B45191F0267C78A6005100B4 /* ExploreViewController.swift in Sources */,
 				B45191EB267C7888005100B4 /* FeedViewController.swift in Sources */,
 				B45191E6267C7724005100B4 /* MainTabController.swift in Sources */,
+				B4A556512680B48D0076EF62 /* LoginViewController.swift in Sources */,
 				B45191C6267C709C005100B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
